@@ -39,4 +39,8 @@
   .header-container img{
     width:100px;
   }
+
+  .burger{
+    display: block;
+  }
 }
