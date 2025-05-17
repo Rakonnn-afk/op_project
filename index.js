@@ -20,6 +20,15 @@ arcframe.forEach(item =>{
 
 
 
+const ulcon = document.querySelector(".ul-container");
+const burg = document.querySelector(".burger")
+
+burg.addEventListener("click", event=>{
+    ulcon.classList.toggle("active");
+})
+
+
+
 
 
 
