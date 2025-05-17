@@ -45,13 +45,14 @@ body{
     color:white;
 }
 .ul-container{
-    display: flex;
+    display:flex;
     flex-direction: row;
     gap:9rem;
     align-self: center;
-    position: relative;
+    position:relative;
     left: -10rem;
     cursor: pointer;
+    
     
 }
 

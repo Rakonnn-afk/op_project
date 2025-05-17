@@ -33,8 +33,26 @@
 
 @media(max-width:30rem){
   .ul-container{
-    display: none;
+    flex-direction: column;
+    position:fixed;
+    top: -600px;
+    left:250px;
+    width: 50%;
+    height: 200px;
+    background-color: #333;
+    padding-top: 60px;
+    gap: 15px;
+    align-items: center;
+    border-radius:5px;
+
   }
+
+  .ul-container li{
+    font-size: 3rem;
+    margin-right: 20px;
+  }
+
+
 
   .header-container img{
     width:100px;
@@ -42,5 +60,31 @@
 
   .burger{
     display: block;
+  }
+
+
+  .ul-container.active{
+    top:60px;
+  }
+
+
+
+
+
+
+}
+
+
+
+@media(max-width:403px){
+  .ul-container{
+    left: 220px;
+  }
+}
+
+
+@media(max-width:357px){
+  .ul-container{
+    left: 200px;
   }
 }
