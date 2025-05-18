@@ -15,7 +15,12 @@
 }
 
 
-@media(max-width:45rem){
+@media(max-width:50rem){
+  html{
+    font-size: 30%;
+  }
+
+
     .ul-container{
       gap: 4rem;
       left: -2rem;
@@ -25,6 +30,29 @@
     .header-container img{
       margin-left: 1rem;
     }
+
+
+    .hero-section{
+      grid-template-columns: 1fr;
+      justify-items: center;
+      gap: 0;
+    }
+    .hero-section img{
+      grid-row: 1/2;
+    
+    }
+
+    .hero-txt{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero-txt button{
+      margin-top: 10px;
+    }
+
+
     
 
 }
@@ -32,6 +60,9 @@
 
 
 @media(max-width:30rem){
+
+
+
   .ul-container{
     flex-direction: column;
     position:fixed;
@@ -39,16 +70,15 @@
     left:250px;
     width: 50%;
     height: 200px;
-    background-color: #333;
-    padding-top: 60px;
+    background-color:var(--red-background);
+    padding-top:40px;
     gap: 15px;
     align-items: center;
-    border-radius:5px;
-
+    border-bottom-left-radius:5px;
   }
 
-  .ul-container li{
-    font-size: 3rem;
+  .ul-container li a{
+    font-size: 2rem;
     margin-right: 20px;
   }
 
@@ -77,9 +107,25 @@
 
 
 @media(max-width:403px){
+  html{
+    font-size:45%;
+  }
+
   .ul-container{
     left: 220px;
   }
+
+
+  .hero-section{
+    align-content: center;
+    
+  }
+
+  .hero-txt button{
+    margin-top: 20px;
+  }
+
+ 
 }
 
 
