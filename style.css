@@ -189,10 +189,10 @@ body{
 
 /* ______________________arc container*/
 
+
 .arc-box{
     width: 100%;
-  
-    padding: 1rem;
+    padding: 10px;
     margin-top:40px;
     overflow: hidden;
     white-space: nowrap;
@@ -206,8 +206,8 @@ body{
     display: flex;
     justify-content: space-evenly;
     animation: marquee 20s linear infinite;
-    gap: 2rem;
-    padding: 10px 0;
+    gap: 20px;
+    padding: 1rem 0;
 
 }
 
@@ -215,7 +215,7 @@ body{
     width:17rem;
     height:27rem;
     border-radius: 5px;
-    padding-top: 1rem;
+    padding-top: 10px;
     box-shadow: 2px 9px 10px var(--red-background);
     background: url(pictures/wnted.jpg);
     background-position: center;
@@ -233,6 +233,20 @@ body{
     box-shadow: 0px 0px 10px var(--red-background);
 
 }
+
+.arc-container:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 
 #egghead{
     background: url(pictures/egghead.webp);
