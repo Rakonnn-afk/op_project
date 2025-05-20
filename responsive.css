@@ -1,7 +1,38 @@
+
+@media(max-width:92rem){
+  html{
+    font-size:51.25% ;
+  }
+
+}
+
+
+
+@media(max-width:77rem){
+    .oda_aboutpic{
+      width: 55rem;
+
+    }
+
+}
+
+
+
+
+
+
+
 @media(max-width:72rem){
   html{
     font-size:51.25% ;
   }
+
+   .oda_aboutpic{
+      width: 40rem;
+
+    }
+
+
 
 }
 
@@ -12,7 +43,45 @@
     font-size:45% ;
   }
 
+  .oda_aboutpic{
+      width: 30rem;
+
+    }
+
 }
+
+
+@media(max-width:1111px){
+  .about{
+      grid-template-columns: 1fr;
+      height: 100%;
+    }
+   
+    .oda_aboutpic{
+      grid-row: 1/2;
+      height: 40rem;
+      width: 60rem;
+      justify-self: center;
+      margin: 30px;
+    }
+    
+    .about_sentence{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-self: center;
+
+    }
+
+    .about_sentence p{
+      font-size: 2rem;
+    }
+
+
+
+}
+
 
 
 @media(max-width:50rem){
@@ -55,6 +124,8 @@
     .arc-frame{
       padding-bottom: 10px;
     }
+
+    
 
 
     
@@ -101,6 +172,19 @@
     top:60px;
   }
 
+  .oda_aboutpic{
+    width: 40rem;
+  }
+
+  .about_sentence{
+    width: 50rem;
+  }
+
+  .about_sentence p{
+    font-size: 1.50rem;
+  }
+
+
 
 
 
@@ -111,9 +195,9 @@
 
 
 @media(max-width:403px){
-  html{
+  /* html{
     font-size:45%;
-  }
+  } */
 
   .ul-container{
     left: 220px;
