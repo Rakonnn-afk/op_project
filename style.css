@@ -189,10 +189,10 @@ body{
 
 /* ______________________arc container*/
 
-
 .arc-box{
     width: 100%;
-    padding: 10px;
+  
+    padding: 1rem;
     margin-top:40px;
     overflow: hidden;
     white-space: nowrap;
@@ -206,8 +206,8 @@ body{
     display: flex;
     justify-content: space-evenly;
     animation: marquee 20s linear infinite;
-    gap: 20px;
-    padding: 1rem 0;
+    gap: 2rem;
+    padding: 10px 0;
 
 }
 
@@ -215,7 +215,7 @@ body{
     width:17rem;
     height:27rem;
     border-radius: 5px;
-    padding-top: 10px;
+    padding-top: 1rem;
     box-shadow: 2px 9px 10px var(--red-background);
     background: url(pictures/wnted.jpg);
     background-position: center;
@@ -234,18 +234,6 @@ body{
 
 }
 
-.arc-container:hover {
-  animation-play-state: paused;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
 
 
 #egghead{
@@ -366,7 +354,8 @@ a{
 
 .oda_aboutpic{
     width: 60rem;
-    height: 60rem;
+    height: 50rem;
+    position: relative;
     border-radius: 10px;
     justify-self: flex-end;
     background: url(pictures/collage-maker-07-oct-2023-05-57-pm-9694.avif);
@@ -379,7 +368,7 @@ a{
 
 .about_sentence p{
     font-family: var(--font-fam);
-    font-size: 2.50rem;
+    font-size: 2.1rem;
     text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5);
 }
 .about_sentence h1{
