@@ -21,11 +21,22 @@ arcframe.forEach(item =>{
 
 
 const ulcon = document.querySelector(".ul-container");
-const burg = document.querySelector(".burger")
+const burg = document.querySelector(".burger");
+const aboutlink = document.getElementById("aboutlink");
+const homelink =document.getElementById("homelink");
 
 burg.addEventListener("click", event=>{
-    ulcon.classList.toggle("active");
+    ulcon.classList.add("active");
 })
+
+aboutlink.addEventListener("click",()=>{
+    ulcon.classList.remove("active");
+})
+
+homelink.addEventListener("click",()=>{
+    ulcon.classList.remove("active");
+})
+
 
 
 
@@ -201,6 +212,11 @@ function showdiscription(element,ship,crewname){
     crew_title(crewname)
   
 }
+
+
+
+
+
 
 
 

@@ -84,12 +84,17 @@
 
 
 
+
+
+
+
+
 @media(max-width:50rem){
   html{
     font-size: 30%;
   }
 
-
+  
     .ul-container{
       gap: 4rem;
       left: -2rem;
@@ -134,15 +139,17 @@
 
 
 
+
+
+
+
 @media(max-width:30rem){
-
-
 
   .ul-container{
     flex-direction: column;
     position:fixed;
-    top: -600px;
-    left:250px;
+    top: -6000px; 
+    left:250px; 
     width: 50%;
     height: 200px;
     background-color:var(--red-background);
@@ -150,12 +157,13 @@
     gap: 15px;
     align-items: center;
     border-bottom-left-radius:5px;
+  
   }
 
   .ul-container li a{
     font-size: 2rem;
-    margin-right: 20px;
   }
+
 
 
 
@@ -170,6 +178,8 @@
 
   .ul-container.active{
     top:60px;
+    
+  
   }
 
   .oda_aboutpic{
@@ -184,6 +194,7 @@
     font-size: 1.50rem;
   }
 
+ 
 
 
 
@@ -195,14 +206,9 @@
 
 
 @media(max-width:403px){
-  /* html{
-    font-size:45%;
-  } */
+ 
 
-  .ul-container{
-    left: 220px;
-  }
-
+ 
 
   .hero-section{
     align-content: center;
@@ -213,12 +219,41 @@
     margin-top: 20px;
   }
 
+  .ul-container{
+    left: 220px;
+  }
+
  
 }
 
 
 @media(max-width:357px){
+
   .ul-container{
     left: 200px;
   }
 }
+
+@media(max-width:350px){
+
+  .ul-container{
+    left: 180px;
+  }
+}
+
+
+@media(max-width:310px){
+
+  .ul-container{
+    left: 160px;
+  }
+}
+
+
+@media(max-width:290px){
+
+  .ul-container{
+    left: 130px;
+  }
+}
+
