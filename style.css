@@ -462,7 +462,7 @@ a{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(7,1fr);
-    /* border: 2px solid; */
+    
     margin: 0 auto;
     gap: 30px;
 
@@ -471,22 +471,29 @@ a{
 
 
 
-.crew_discription{
-    width:100%;
-    height: 45rem;
+
+   
+    
     /* border: 2px solid black; */
    
   
-}
+
 .crew_pic{
     position: relative;
     width:100%;
-    height: 45rem;
+    height: 100%;
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
+
+.crew_discription{
+    max-width: 90%;
+    padding: 10px;
+}
+
 
 
 
@@ -494,12 +501,16 @@ a{
 
     font-family: var(--font-fam);
     font-size: 2.1rem;
+    word-wrap: break-word;
+  overflow-wrap: break-word;
+    
+
 }
 
 .title_crew{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items:flex-start;
     margin:10px 0;
    
 }
@@ -549,7 +560,7 @@ a{
 .strawhatpic{
     
     width: 70%;
-    height: auto;
+    
 }
 
 .redhairpic{
@@ -571,7 +582,7 @@ a{
 
 .kidpiratespic{
     width: 75%;
-    height: auto;
+    
 }
 
 

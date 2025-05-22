@@ -9,10 +9,13 @@
 
 
 @media(max-width:77rem){
+
+
     .oda_aboutpic{
       width: 55rem;
 
     }
+
 
 }
 
@@ -28,25 +31,11 @@
   }
 
    .oda_aboutpic{
-      width: 40rem;
+      width:30rem;
 
     }
 
 
-
-}
-
-
-
-@media(max-width:56rem){
-  html{
-    font-size:45% ;
-  }
-
-  .oda_aboutpic{
-      width: 30rem;
-
-    }
 
 }
 
@@ -60,7 +49,7 @@
     .oda_aboutpic{
       grid-row: 1/2;
       height: 40rem;
-      width: 60rem;
+      width: 70rem;
       justify-self: center;
       margin: 30px;
     }
@@ -81,6 +70,96 @@
 
 
 }
+
+
+
+
+@media(max-width:56rem){
+  html{
+    font-size:45% ;
+  }
+
+  .oda_aboutpic{
+      width: 70rem;
+
+    }
+
+
+
+    
+
+
+    .pirate_crew_box{
+      grid-template-columns: 1fr;
+    }
+
+    #straw{
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+
+
+
+
+    #redhaird1{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    
+    }
+
+    #teachh{
+      grid-column: 1/2;
+      grid-row: 6/7;
+    }
+
+    #bigmom1{
+    grid-column: 1/2;
+    grid-row: 8/9;
+   
+    }
+    #beast1{
+    grid-column: 1/2;
+    grid-row: 10/11;
+    }
+
+
+    #heart1{
+    grid-column: 1/2;
+    grid-row: 12/13;
+  
+    }
+
+    #kid1{
+    grid-column: 1/2;
+    grid-row: 14/15;
+
+    }
+
+    .crew_discription{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+    }
+
+    .crew_discription p{
+      text-align: center;
+    }
+
+
+    .pirate_crew_box{
+      justify-items: center;
+      gap: 0;
+    }
+
+
+    
+
+
+}
+
+
 
 
 
@@ -129,6 +208,8 @@
     .arc-frame{
       padding-bottom: 10px;
     }
+
+  
 
     
 
@@ -228,10 +309,20 @@
 
 
 @media(max-width:357px){
+  
 
   .ul-container{
     left: 200px;
   }
+
+  .about{
+    padding: 0 10px;
+  }
+
+
+
+
+
 }
 
 @media(max-width:350px){

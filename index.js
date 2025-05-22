@@ -26,7 +26,13 @@ const aboutlink = document.getElementById("aboutlink");
 const homelink =document.getElementById("homelink");
 
 burg.addEventListener("click", event=>{
-    ulcon.classList.add("active");
+    if(!ulcon.classList.contains("active")){
+        ulcon.classList.add("active");
+    }
+    else{
+        ulcon.classList.remove("active")
+    }
+    
 })
 
 aboutlink.addEventListener("click",()=>{
