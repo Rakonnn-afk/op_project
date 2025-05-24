@@ -784,3 +784,22 @@ a{
     background-color: black;
     color: white;
 }
+
+
+/* footer */
+
+
+.llog{
+    min-width: 120px;
+}
+
+.social-icons-container li{
+    width: 20px;
+    height: 50px;
+    list-style-type:none;
+}
+
+.social-icons-container{
+    display: flex;
+    flex-direction: row;
+}
