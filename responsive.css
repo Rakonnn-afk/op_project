@@ -68,6 +68,21 @@
     }
 
 
+}
+
+@media(max-width:60rem){
+  .modal-element-container{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 0;
+    
+  }
+
+  .crew-char-container{
+    justify-content: center;
+  }
+
+  
 
 }
 
@@ -83,6 +98,8 @@
       width: 70rem;
 
     }
+
+  
 
 
 
@@ -275,7 +292,24 @@
     font-size: 1.50rem;
   }
 
+
+
+
+
+
+  .logo-boat-container{
+    width:90% ;
+  
+  }
+
+
  
+  .boat-docs{
+    width: 100%;
+  
+  } 
+
+  
 
 
 
@@ -283,6 +317,18 @@
 
 
 }
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
